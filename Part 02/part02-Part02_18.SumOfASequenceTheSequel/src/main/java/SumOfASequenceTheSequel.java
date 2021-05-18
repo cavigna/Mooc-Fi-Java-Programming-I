@@ -5,6 +5,17 @@ public class SumOfASequenceTheSequel {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("First number?");
+        int start = scanner.nextInt();
+        System.out.println("Last number?");
+        int stop = scanner.nextInt();
+        int sum = 0;
+        for (int i = start; i <= stop; i++) {
+
+            sum += i;
+
+        }
+        System.out.println("The sum is " + sum);
 
     }
 }
